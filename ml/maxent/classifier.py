@@ -5,8 +5,8 @@ import numpy as np
 from six import integer_types
 from collections import defaultdict
 
-from maxent.util import CutoffChecker, accuracy, log_likelihood
-from maxent.probability import DictionaryProbDist
+from .util import CutoffChecker, accuracy, log_likelihood
+from .probability import DictionaryProbDist
 
 
 class MaxentClassifier(object):
